@@ -1,40 +1,44 @@
-# Welcome to Remix!
+# Remix Blog Project
 
-- 📖 [Remix docs](https://remix.run/docs)
+This project is a simple blog application built with the following tech stack:
 
-## Development
+- TypeScript
+- ReactJS
+- Remix
+- Tailwind CSS
+- Vite
+- MongoDB
 
-Run the dev server:
+## Features
 
-```shellscript
-npm run dev
+- Create, read, update, and delete (CRUD) blog posts
+- Responsive design for mobile, tablet, and desktop
+
+## Prerequisites
+
+Ensure the following are installed on your machine:
+
+- **Node.js & npm**: Node.js version 14.x or later, npm version 6.x or later
+- **MongoDB**: A local MongoDB instance or MongoDB Atlas
+- **Git**: For cloning the repository
+
+## Setup Instructions
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/binnehaha321/shardlab-blog.git
+cd sharblab-blog
 ```
 
-## Deployment
+### Step 2: Install packages
 
-First, build your app for production:
+`npm install`
 
-```sh
-npm run build
-```
+### Step 3: Configure Environment Variables as `.env.example`
 
-Then run the app in production mode:
+`CONNECTION_STRING=<Your connection string here>`
 
-```sh
-npm start
-```
+### Step 4: Run the Remix Development Server
 
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+`npm run dev`
